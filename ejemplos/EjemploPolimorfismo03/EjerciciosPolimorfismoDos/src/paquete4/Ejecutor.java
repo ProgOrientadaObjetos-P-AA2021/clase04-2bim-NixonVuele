@@ -23,8 +23,8 @@ public class Ejecutor {
         arriendoComida.establecerValorLuz(40.2); // en $
         
         ArriendoLocalComercial arriendoComercial = new ArriendoLocalComercial(
-                "Andrew Schroeder", 400);
-        arriendoComercial.establecerValorAdicionalFijo(100); // en $
+                "Andrew Schroeder", 400,100);
+        //arriendoComercial.establecerValorAdicionalFijo(100); // en $
         
         ArriendoLocalSesiones arriendoSesiones = new ArriendoLocalSesiones(
                 "Angela Watson", 350);
